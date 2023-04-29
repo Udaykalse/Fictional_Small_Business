@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+header {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration :none;
+    color: #333;
+	padding: 10px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.banner {
+	background-image: url("Delivery\ \(1\).jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #a7a7a0;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.banner p {
+	font-size: 24px;
+}
+
+.services {
+	padding: 50px 0;
+	background-color: #f2f2f2;
+}
+
+.services h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.service {
+	width: 30%;
+	margin: 0 1.5%;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.service h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.service p {
+	font-size: 16px;
+}
+
+.about {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.about h2 {
+	margin-bottom: 50px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+form label {
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+	outline: none;
+	border-color: #333;
+}
+
+form button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #666;
+}
+main {
+	padding: 50px 0;
+	text-align: center;
+}
+
+main h1 {
+	margin-bottom: 50px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+form label {
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+	outline: none;
+	border-color: #333;
+}
+
+form button {
+	background-color: #333;
+	color: #fff;
+	padding: 2px 3px;
+	border: none;
+	border-radius: 45px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #666;
+}
+
+.success-message,
+.error-message {
+	margin-bottom: 20px;
+}
+
+.success-message {
+	color: green;
+}
+
+.error-message {
+	color: red;
+}
